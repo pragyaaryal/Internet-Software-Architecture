@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:#2faa10;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        .container{
+            background-color: rgba(239, 239, 239);
+            padding: 20px;
+            margin-left: 400px;
+            margin-right: 400px ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        input[type=text],[type=scrolldown], select, textarea{
+         width: 100%; 
+         padding: 12px; 
+         border: 1px solid #ccc; 
+         border-radius: 4px; 
+         box-sizing: border-box; 
+         margin-top: 6px; 
+         margin-bottom: 16px; 
+         }
+         input[type=submit]{
+        width: 100%;
+         background-color: #0dad0d ;
+         padding: 10px;
+         text-align: center;
+         font-size: 30px;
+         }
+         input[type=submit]:hover {
+         background-color: #f5f5f5 ;
+         }
+         input[type=radio],[type=checkbox]{
+         padding: 12px; 
+         border: 1px solid #ccc; 
+         border-radius: 4px; 
+         box-sizing: border-box; 
+         margin-top: 6px; 
+         margin-bottom: 16px;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="Herald College">
+            <h1>Herald College Survey Form</h1>
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="Enter your name">
+    
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email" placeholder="Enter your Email">    
+    
+            <label for="Age">Age</label>
+            <input type="text" name="Age" id="Age" placeholder="Enter your Age">
+    
+            <label for="Scrolldown">Which option best describes you?</label>
+            <select>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Staff">Staff</option>
+            </select>
+    
+            <label for="radio">Would you recommend Herald College Kathmandu to a friend?</label> <br>
+           
+            <label for="Yes">
+                <input type="radio" name="option" id="Yes">Yes
+            </label>
+            <br>
+            <label for="No">
+                <input type="radio" name="option" id="No">No
+            </label>
+            <br>
+            
+            <label for="Both">
+                <input type="radio" name="option" id="Both">Both
+            </label>
+        <br><br>
+    
+            <label for="Languages">Languages and framework known (Check all that apply)</label><br> 
+            
+            <label for="C"><input type="checkbox" name="C" id="C">C</label><br>
+            <label for="C++"><input type="checkbox" name="C++" id="C++">C++</label> <br>
+            <label for="C#"><input type="checkbox" name="C#" id="C#"> C#</label><br>
+            <label for="Java"><input type="checkbox" name="Java" id="Java"> Java</label><br>
+            <label for="Python"><input type="checkbox" name="Python" id="Python"> Python</label><br>
+            <label for="JavaScript"><input type="checkbox" name="JavaScript" id="JavaScript"> JavaScript</label><br>
+            <label for="React"><input type="checkbox" name="React" id="React">React</label><br>
+            <label for="Angular"><input type="checkbox" name="Angular" id="Angular"> Angular</label><br>
+            <label for="Django"><input type="checkbox" name="Django" id="Django"> Django</label><br>
+            <label for="Spring"><input type="checkbox" name="Spring" id="Spring">Spring</label><br>
+            
+    <br>
+            <label for="suggestions">Any Comments or suggestions</label>
+            <textarea id="subject" name="subject" style="height:200px"></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+</body>
+</html>
