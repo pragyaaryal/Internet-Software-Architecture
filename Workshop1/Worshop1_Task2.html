@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="Nav">
+        <img src="logo.png" alt="Mamu ko Swadh logo">
+        <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Services">Services</a>
+        <a href="#Contacts">Contacts</a>
+        </nav>
+    </div>
+
+    <div id="Home">
+        <div class="media">
+        <a href="https://www.linkedin.com/in/pragya-aryal-652781212/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="tel:+977 9841963445" target="_blank"><i class="fa fa-phone"></i></a>
+        <a href="https://www.instagram.com/creating_pragya/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="photo">
+            <img src="photo.png" alt="Mamuko Swadh">
+        </div>
+    </div>
+
+    <div id="About">
+        <h1>  Introducing <span style="color:black"> <em> "Mamu ko Swadh"</em> </span>, </h1>
+        <h2> which translates to <i> mom's taste</i>. </h2> 
+        <h3>
+            We are a small business that values quality and love in every product we make. Our journey began two years back when Kamala Mamu started selling homemade delicacies at a farmers market. We're now a homebased local Nepali business selling authentic taste of nepali spices in the form of Achar, Massyaura, Titaura, Gundruk, Chop, etc. We focus on providing quality products made with love. <br> <br>
+        </h3>
+    </div>
+    
+    <div class="slider-container">
+        <img src="1.png" alt="producst">
+        
+        <div class="slide active" style=" background-image: image(1.png); ">
+        </div>
+
+        <div class="slide active" style="
+            background-image: url(2.png);">
+        </div>
+
+            <div class="slide active" style="
+                  background-image: url(3.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(4.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(5.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(6.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(7.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(8.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(9.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(10.png);">
+            </div>
+
+            <div class="slide active" style="
+                  background-image: url(11.png);">
+            </div>
+        
+            <button class="arrow left-arrow" id="left">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="arrow right-arrow" id="right">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        
+          <script src="task2.js"></script>
+    </div>
+    </body>
+
+    <p>At Mamu ko Swadh, we promise to bring you the taste of homemade goodness in every bite.</p>
+    
+    <div id="Services">
+        <div class="Online">
+            <a href="https://heraldcollege.edu.np"target="_blank" style="text-decoration:none; color:#65587E;">
+                <img id= "heraldlogo" src="heraldlogo.png" alt="Herald logo">
+            <br><h1>Online Services</h1>
+                <br><h2>Bachelors of Science (Hons) Computer Science</h2>
+                <br><h3> 2022-Current </h3> 
+            </a>  
+        </div>
+            
+        <div class="Specialized">
+            <a href="https://bnks.edu.np/#/" target="_blank" style="text-decoration:none; color:#65587E;">
+                <br><img id="bnkslogo" src="bnkslogo.JPG" alt="BNKS logo">
+                <br><h1>Specialized Services</h1> 
+                <br><h2> High School Graduate Science (Biology)</h2>
+                <br><h3>2019-2021</h3>
+            </a>
+        </div>
+
+        <div class="Wholesale">
+            <a href="https://bnks.edu.np/#/" target="_blank" style="text-decoration:none; color:#65587E;">
+                <br><img id="bnkslogo" src="bnkslogo.JPG" alt="BNKS logo">
+                <br><h1>Wholesale orders</h1> 
+                <br><h2> High School Graduate Science (Biology)</h2>
+                <br><h3>2019-2021</h3> 
+            </a>
+        </div>
+    </div>
+
+    <div id="Contacts">
+        <h1>Place your order here...</h1>
+        
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label> <br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+      
+          <label for="lname">Last Name</label> <br>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br>
+    
+          <label for="email">Email</label> <br>
+          <input type="text" id="email" name="email" placeholder="Your Email adress..."> <br>
+
+          <label for="phone">Phone number</label> <br>
+          <input type="text" id="phone" name="phone" placeholder="Your Phone number..."> <br>
+
+          <br>
+      
+      
+          <label for="province">Delivery Address</label> <br>
+          <select id="country" name="country">
+            <option value="Province No. 1">Province no. 1</option>
+            <option value="Province No. 2">Province No. 2</option>
+            <option value="Province No. 3">Province No. 3</option>
+            <option value="Gandaki Pradesh">Gandaki Pradesh</option>
+            <option value="Province No. 5">Province No. 5</option>
+            <option value="Karnali Pradesh">Karnali Pradesh</option>
+            <option value="Sudurpashchim Pradesh">Sudurpashchim Pradesh</option>
+            
+          </select>
+
+          <br>
+
+          <label for="subject">Please specify what you want and its quantity</label> <br>
+          <textarea id="subject" name="subject" placeholder="Leave a message here...." style="height:200px"></textarea> <br>
+      
+          <input type="submit" value="Submit"> <br>
+      
+        </form>
+</div>
+<div id="Connect">
+    <h1>Connect ~ </h1>
+    <a href="https://www.linkedin.com/in/pragya-aryal-652781212/" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="tel:+977 9841963445" target="_blank"><i class="fa fa-phone"></i></a>
+    <a href="https://www.instagram.com/creating_pragya/" target="_blank"><i class="fa fa-instagram"></i></a>
+</div>
+</body>
+</html>
