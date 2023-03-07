@@ -32,7 +32,6 @@ html{
     display: flex;
     background-color:#9879A3;
     height: 100%;
-    z-index: -1;
 }
 #Home a{
     text-decoration: none;
@@ -86,28 +85,40 @@ background-size: cover;
     padding:20px;
 
 }
+.slide{
+    display: flex;
+    background-color: #F7EEFA;
+    padding: 40px 40px 0px 50px;
+}
+.slide img{
+    width: 90%;
+}
+.slide i{
+    margin-top: 150px;
+    padding: 20px;
+
+}
+
 
 #Services{
     color: #4C002D;
     font-size: 20px;
-    padding: 50px 50px 50px 50px;
+    padding: 20px 50px 50px 50px;
     text-align: center;
     background-color: #F7EEFA;
-    display: flex;
 }
+.Services-header h1{
 
+    font-size: 55px;
+    background-color: #F7EEFA;
+    color: #4C002D;
+    padding: 40px 0px 10px 200px;
+}
 .Online, .Specialized, .Wholesale {
-    flex: 1;
     background-color: #9879A3;
     border-radius: 30px;
-    padding: 50px;
-    margin: 40px;
-    opacity: 0.8;
-}
-
-.Online:hover, .Specialized:hover, .Wholesale:hover{
-    opacity: 1;
-
+    padding: 30px;
+    margin: 40px 150px 40px 150px;
 }
 
 #heraldlogo{
